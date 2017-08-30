@@ -1,6 +1,6 @@
 # AndroidDemoApp
 
-A demo android that demonstrates two important android frameworks:
+An android app that demonstrates two important android frameworks:
 
   * Dagger 2 fast dependency injection: https://github.com/google/dagge
 
