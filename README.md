@@ -7,6 +7,7 @@ A demo android that demonstrates two important android frameworks:
   * Android Bootstrap: https://github.com/Bearded-Hen/Android-Bootstrap
 
 
+# Async Model
 
 If you look closely at the code you will see that it is inspired by a node.Js async model.
 
