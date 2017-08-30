@@ -15,7 +15,7 @@ If you look closely at the code you will see that it is inspired by a node.js as
 
 For Example inside CameraUtils:
 
-https://github.com/g00dnatur3/AndroidDemoApp/blob/master/app/src/main/java/com/hp/camera/CameraUtils.java
+https://github.com/g00dnatur3/AndroidDemoApp/blob/master/app/src/main/java/com/g00dnatur3/camera/CameraUtils.java
 
 You will see almost every method ends with a Handler and Function, ex:
 
