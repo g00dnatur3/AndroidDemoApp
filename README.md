@@ -46,7 +46,8 @@ I would rather put assertions in the onComplete implementations and have the cod
 
 
 
-Error Handling (From NodeJS)
+
+# Error Handling of Async
 
 
 if the args[0] is not null then args[0] is the error & the async call failed.
