@@ -18,11 +18,11 @@ https://github.com/g00dnatur3/AndroidDemoApp/blob/master/app/src/main/java/com/h
 
 You will see almost every function ends with a Handler and Function, ex:
 
-`
+```
 public static void exampleAsyncMethod(... final Handler handler, final Function onComplete) {
 
 }
-`
+```
 
 This is so that the work can be executed async with the specified handler and it will call the onComplete function when finished... 
 
