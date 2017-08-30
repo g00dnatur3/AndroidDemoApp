@@ -1,4 +1,4 @@
-package com.hp.http;
+package com.g00dnatur3.http;
 
 import android.util.Log;
 

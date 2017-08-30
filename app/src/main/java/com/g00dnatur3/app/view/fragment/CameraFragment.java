@@ -1,9 +1,7 @@
-package com.hp.app.view.fragment;
+package com.g00dnatur3.app.view.fragment;
 
 import android.annotation.TargetApi;
-import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
-import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
@@ -19,19 +17,16 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import com.beardedhen.androidbootstrap.BootstrapButton;
-import com.hp.app.Application;
+import com.g00dnatur3.camera.CameraUtils;
+import com.g00dnatur3.event.Function;
+import com.g00dnatur3.view.ViewUtils;
+import com.g00dnatur3.view.fragment.HandlerFragment;
+import com.g00dnatur3.app.Application;
 import com.hp.app.R;
-import com.hp.camera.CameraUtils;
-import com.hp.event.Function;
-import com.hp.view.ViewUtils;
-import com.hp.view.fragment.HandlerFragment;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.List;
 
 import javax.inject.Inject;
 import javax.inject.Named;

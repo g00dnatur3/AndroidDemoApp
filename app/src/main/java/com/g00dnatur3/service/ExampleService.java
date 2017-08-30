@@ -1,8 +1,8 @@
-package com.hp.service;
+package com.g00dnatur3.service;
 
 import android.util.Log;
 
-import com.hp.event.Emitter;
+import com.g00dnatur3.event.Emitter;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

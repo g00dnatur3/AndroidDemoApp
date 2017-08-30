@@ -1,4 +1,4 @@
-package com.hp.app.view.fragment;
+package com.g00dnatur3.app.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hp.app.Application;
+import com.g00dnatur3.service.WeatherService;
+import com.g00dnatur3.view.fragment.LoggingFragment;
+import com.g00dnatur3.app.Application;
 import com.hp.app.R;
-import com.hp.service.WeatherService;
-import com.hp.view.fragment.LoggingFragment;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -25,7 +25,8 @@ import javax.inject.Inject;
  */
 public class WeatherFragment extends LoggingFragment {
 
-    @Inject WeatherService weatherService;
+    @Inject
+    WeatherService weatherService;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

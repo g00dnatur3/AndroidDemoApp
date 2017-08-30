@@ -1,4 +1,4 @@
-package com.hp.camera;
+package com.g00dnatur3.camera;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -23,8 +23,7 @@ import android.util.Log;
 import android.util.Size;
 import android.view.Surface;
 
-import com.hp.app.view.fragment.CameraFragment;
-import com.hp.event.Function;
+import com.g00dnatur3.event.Function;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.hp.view;
+package com.g00dnatur3.view;
 
 import android.annotation.TargetApi;
 import android.content.res.Configuration;

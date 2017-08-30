@@ -1,12 +1,13 @@
-package com.hp.app;
+package com.g00dnatur3.app;
 
 import android.net.wifi.WifiManager;
 import android.util.Log;
 
-import com.hp.app.view.MainActivity;
-import com.hp.app.view.fragment.CameraFragment;
-import com.hp.app.view.fragment.WeatherFragment;
-import com.hp.service.ExampleService;
+import com.g00dnatur3.app.view.MainActivity;
+import com.g00dnatur3.app.view.fragment.CameraFragment;
+import com.g00dnatur3.app.view.fragment.WeatherFragment;
+import com.g00dnatur3.service.ExampleService;
+import com.hp.app.DaggerApplication_ApplicationComponent;
 
 import java.io.IOException;
 import java.math.BigInteger;

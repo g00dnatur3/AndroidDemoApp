@@ -1,4 +1,4 @@
-package com.hp.event;
+package com.g00dnatur3.event;
 
 import java.util.ArrayList;
 import java.util.Iterator;

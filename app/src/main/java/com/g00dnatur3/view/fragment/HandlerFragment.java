@@ -1,10 +1,9 @@
-package com.hp.view.fragment;
+package com.g00dnatur3.view.fragment;
 
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 
 /**

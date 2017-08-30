@@ -1,11 +1,11 @@
-package com.hp.service;
+package com.g00dnatur3.service;
 
 import android.util.Log;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.hp.http.JsonHttpResponseHandler;
-import com.hp.app.Application;
+import com.g00dnatur3.http.JsonHttpResponseHandler;
+import com.g00dnatur3.app.Application;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.RequestParams;
 

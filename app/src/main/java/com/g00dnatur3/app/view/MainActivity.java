@@ -1,16 +1,15 @@
-package com.hp.app.view;
+package com.g00dnatur3.app.view;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
-import android.view.View;
 
-import com.hp.app.Application;
+import com.g00dnatur3.app.Application;
 import com.hp.app.R;
-import com.hp.app.view.fragment.CameraFragment;
-import com.hp.app.view.fragment.WeatherFragment;
+import com.g00dnatur3.app.view.fragment.CameraFragment;
+import com.g00dnatur3.app.view.fragment.WeatherFragment;
 
 public class MainActivity extends FragmentActivity {
 

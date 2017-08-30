@@ -1,4 +1,4 @@
-package com.hp.app.view;
+package com.g00dnatur3.app.view;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

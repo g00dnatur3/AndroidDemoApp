@@ -1,4 +1,4 @@
-package com.hp.event;
+package com.g00dnatur3.event;
 
 /**
  * Created by developer on 7/18/17.

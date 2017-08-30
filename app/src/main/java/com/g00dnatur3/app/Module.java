@@ -1,4 +1,4 @@
-package com.hp.app;
+package com.g00dnatur3.app;
 
 import android.content.Context;
 import android.hardware.camera2.CameraManager;
@@ -6,8 +6,8 @@ import android.util.DisplayMetrics;
 import android.util.Size;
 import android.view.WindowManager;
 
-import com.hp.camera.CameraUtils;
-import com.hp.service.WeatherService;
+import com.g00dnatur3.camera.CameraUtils;
+import com.g00dnatur3.service.WeatherService;
 import com.loopj.android.http.AsyncHttpClient;
 
 import java.util.List;
@@ -37,7 +37,8 @@ public class Module {
         return new AsyncHttpClient();
     }
 
-    @Provides @Singleton WeatherService provideWeatherService(AsyncHttpClient httpClient) {
+    @Provides @Singleton
+    WeatherService provideWeatherService(AsyncHttpClient httpClient) {
         return new WeatherService(httpClient);
     }
 

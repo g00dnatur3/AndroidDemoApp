@@ -1,4 +1,4 @@
-package com.hp.view.fragment;
+package com.g00dnatur3.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.CallSuper;
