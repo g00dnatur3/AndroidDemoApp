@@ -2,9 +2,9 @@
 
 A demo android that demonstrates two important android frameworks:
 
-Dagger 2 fast dependency injection: https://github.com/google/dagge
+..* Dagger 2 fast dependency injection: https://github.com/google/dagge
 
-Android Bootstrap: https://github.com/Bearded-Hen/Android-Bootstrap
+..* Android Bootstrap: https://github.com/Bearded-Hen/Android-Bootstrap
 
 
 
@@ -29,10 +29,11 @@ This is so that the work can be executed async with the specified handler and it
 
 Definition of a Function:
 
+```
 public interface Function {
     public void call(Object... args);
 }
-
+```
 
 You can see a function is no more than an array of Objects.
 
