@@ -17,7 +17,7 @@ For Example inside CameraUtils:
 
 https://github.com/g00dnatur3/AndroidDemoApp/blob/master/app/src/main/java/com/hp/camera/CameraUtils.java
 
-You will see almost every function ends with a Handler and Function, ex:
+You will see almost every method ends with a Handler and Function, ex:
 
 ```
 public static void exampleAsyncMethod(... final Handler handler, final Function onComplete) {
