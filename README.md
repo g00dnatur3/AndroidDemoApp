@@ -36,15 +36,27 @@ public interface Function {
 }
 ```
 
-You can see a function is no more than an array of Objects.
+You can see a function is a call method with an array of args (Objects).
 
+# Example Async Call
 
-You could probably add generircs & type casting if you wanted compile time checks.
+from: https://github.com/g00dnatur3/AndroidDemoApp/blob/master/app/src/main/java/com/g00dnatur3/app/view/fragment/CameraFragment.java
 
-
-I would rather put assertions in the onComplete implementations and have the code fail fast during automated testing.
-
-
+```
+Function onComplete = new Function() {
+    @Override
+    public void call(Object... args) {
+        if (args[0] != null) {
+            Log.i(TAG, "openCamera - err: " + args[0]);
+            cameraDevice = null;
+        } else {
+            cameraDevice = (CameraDevice) args[1];
+            createPreviewSession();
+        }
+    }
+};
+CameraUtils.openCamera(getActivity(), cameraManager, cameraId, getBackgroundHandler(), onComplete);
+```
 
 
 # Error Handling of Async
