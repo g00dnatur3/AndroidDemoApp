@@ -9,7 +9,7 @@ A demo android that demonstrates two important android frameworks:
 
 # Async Model
 
-If you look closely at the code you will see that it is inspired by a node.Js async model.
+If you look closely at the code you will see that it is inspired by a node.js async model.
 
 
 
