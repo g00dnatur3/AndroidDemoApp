@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_alignParentBottom="false"
+        app:layout_marginTopPercent="2%"
+        app:layout_heightPercent="88%"
+        app:layout_widthPercent="100%" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        app:layout_heightPercent="10%">
+
+        <RelativeLayout
+            android:layout_alignParentLeft="true"
+            app:layout_marginLeftPercent="5%"
+            app:layout_widthPercent="50%"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton android:id="@+id/take_picture_btn" android:text="Take Picture"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bootstrapBrand="success"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:showOutline="false"
+                app:roundedCorners="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            app:layout_marginRightPercent="5%"
+            app:layout_widthPercent="50%"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton android:id="@+id/bt2" android:text="BootstrapButton2"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bootstrapBrand="success"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:showOutline="false"
+                app:roundedCorners="true" />
+        </RelativeLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
+

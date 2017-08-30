@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="black_color_80_opacity">#30000000</color>
+	<color name="blue_dark">#ff35a8b6</color>
+	<color name="blue_lighter">#9b40cddb</color>
+	<color name="green_dark">#ffafc93a</color>
+	<color name="green_lighter">#c2bad442</color>
+	<color name="purple_dark">#ff9d93d1</color>
+	<color name="purple_lighter">#f8b6aef1</color>
+	<color name="red_dark">#ffff573b</color>
+	<color name="red_lighter">#ffff8269</color>
+	<color name="white_lighter_trans">#35ffffff</color>
+	<color name="white_dark_trans">#35FFFFFF</color>
+	<color name="disabled">#be2c2c2c</color>
+	<color name="selected_background">#8fdef5</color>
+	<color name="spotify_above_fade_start_color">#FA472948</color>
+	<color name="spotify_above_fade_center_color">#AA412A4B</color>
+	<color name="spotify_above_fade_end_color">#703D2D50</color>
+	<color name="spotify_below_fade_start_color">#FA9F8C77</color>
+	<color name="spotify_below_fade_center_color">#AAA28C78</color>
+	<color name="spotify_below_fade_end_color">#709E8777</color>
+	<color name="prepare_message_color">#3d817d</color>
+	<color name="user_name_color">#54d6d2</color>
+	<color name="orange">#FFA500</color>
+</resources>

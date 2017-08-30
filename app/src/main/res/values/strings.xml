@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidDemoApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="playing_on">"Playing On : "</string>
+    <string name="play_with_android">Portofino</string>
+    <string name="play_with_sonos">Sonos</string>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- text sizes -->
+    <dimen name="header1_textsize">50sp</dimen>
+    <dimen name="header2_textsize">23sp</dimen>
+    <dimen name="date_textsize">110sp</dimen>
+    <dimen name="calendar_textsize">35sp</dimen>
+
+    <!-- padding sizes -->
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+
+    <!--partial_weather_forecast_row-->
+    <dimen name="padding_weather_row">20dp</dimen>
+    <dimen name="margin_weather_row">5dp</dimen>
+    <dimen name="weather_icon_margin">2dp</dimen>
+    <dimen name="weather_text_size">30sp</dimen>
+
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">5dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+
+    <dimen name="home_overview_textsize">50sp</dimen>
+    <dimen name="music_textsize">17sp</dimen>
+
+    <dimen name="music_webview_equalizer_width">150dp</dimen>
+    <dimen name="music_webview_equalizer_height">40dp</dimen>
+    <dimen name="music_fragment_play_size">80dp</dimen>
+    <dimen name="music_fragment_prev_next_size">60dp</dimen>
+
+    <dimen name="volume_bar_width">100dip</dimen>
+</resources>
