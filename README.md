@@ -2,9 +2,9 @@
 
 A demo android that demonstrates two important android frameworks:
 
-..* Dagger 2 fast dependency injection: https://github.com/google/dagge
+  * Dagger 2 fast dependency injection: https://github.com/google/dagge
 
-..* Android Bootstrap: https://github.com/Bearded-Hen/Android-Bootstrap
+  * Android Bootstrap: https://github.com/Bearded-Hen/Android-Bootstrap
 
 
 
