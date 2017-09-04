@@ -7,7 +7,7 @@ import com.g00dnatur3.app.view.MainActivity;
 import com.g00dnatur3.app.view.fragment.CameraFragment;
 import com.g00dnatur3.app.view.fragment.WeatherFragment;
 import com.g00dnatur3.service.ExampleService;
-import com.hp.app.DaggerApplication_ApplicationComponent;
+import com.g00dnatur3.app.DaggerApplication_ApplicationComponent;
 
 import java.io.IOException;
 import java.math.BigInteger;
