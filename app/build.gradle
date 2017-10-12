@@ -6,7 +6,7 @@ android {
     buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId "com.hp.app"
+        applicationId "com.g00dnatur3.app"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
